@@ -8,11 +8,8 @@ public class Coordenada {
 	private double longitude;
 
 	/* construtores */
-
-	/**
-	 * Aceita o formato DDDºMM'SS"
-	 */
-	public Coordenada(String lat, String lon) { // Graus, minutos e segundos (DDDºMM'SS")
+	
+	public Coordenada(String lat, String lon) {
 		this.latitude = dmsToDecimal(lat);
 		this.longitude = dmsToDecimal(lon);
 	}
